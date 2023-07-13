@@ -1,0 +1,66 @@
+@font-face {
+    font-family: customized;
+    src: url(./Font/SUPER\ PUNCH.ttf);
+}
+
+* {
+    margin: 0; padding: 0;
+    font-size: large;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: customized;
+}
+
+body, .container, .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container, .screen {
+    border-radius: 25px;
+}
+
+.screen, input {
+    width: 100%;
+    border: none;
+}
+
+body {
+    background: #222222;
+}
+
+.container {
+    position: absolute;
+    z-index: 1;
+    padding: 25px;
+    transform: translateY(55%);
+    box-shadow: 0px 2px 10px 10px #0c0c0c;
+    background: linear-gradient(100deg, #141414, #272626);
+}
+
+
+.screen {
+    font-size: larger;
+    margin-bottom: 40px;
+    background-color: #bbbbbb;
+    box-shadow: 0px 2px 10px 2px #818080;
+}
+
+input {
+    cursor: pointer;
+    margin: 5px 3px;
+    padding: 25px 30px;
+    border-radius: 50px;
+    background: #f5f5f5;
+}
+
+
+.operator {
+    background-color: #bbbbbb;
+}
+
+
+#equate {
+    background-color: #eeff00;
+}
